@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Pixelated Dreams</h1>
+        <h2 class="subtitle">(16-bit nostalgia)</h2>
+      </header>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="under-construction.html">Art</a>
+        <a href="under-construction.html">Music</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+
+      <main class="main-contact">
+        <form name="contact" method="post" data-netlify="true">
+          <h2>Contact Me</h2>
+          <ul>
+            <li>
+              <label for="name"></label>
+              <input type="text" name="name" placeholder="Name" />
+            </li>
+            <li>
+              <label for="email"></label>
+              <input type="email" name="email" placeholder="Email" />
+            </li>
+            <li>
+              <label for="message"></label>
+              <textarea name="message" placeholder="Message"></textarea>
+            </li>
+            <li>
+              <input
+                class="submit-button"
+                type="submit"
+                name="submit-button"
+                value="Submit"
+              />
+            </li>
+          </ul>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

@@ -213,6 +213,22 @@ textarea {
   main {
     padding: 0 20px 50px;
   }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
   .container {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 100%;

@@ -219,19 +219,19 @@ textarea {
   }
 
   h1 {
-    font-size: 2.9rem;
+    font-size: 2.8rem;
   }
 
   h2 {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   a {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   .container {
     grid-template-rows: auto auto auto auto;

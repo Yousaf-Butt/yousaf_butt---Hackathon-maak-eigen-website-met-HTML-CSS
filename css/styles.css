@@ -243,6 +243,10 @@ textarea {
       "F";
   }
 
+  .subtitle {
+    font-size: 1.9rem;
+  }
+
   .footer-links {
     justify-content: space-around;
   }
